@@ -39,7 +39,7 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center px-4 sm:p-0 bg-black">
+    <div className="flex flex-col items-center justify-center px-4 sm:p-0">
       <img src={jrealme} alt="JRealMe Logo" className="h-20 mb-16 mt-40" style={{width: '400px', height: '200px'}}/>
       <form onSubmit={handleSubmit} className="w-full max-w-lg">
         <div className="flex items-center border-b-2 border-cyan-900 py-2">
